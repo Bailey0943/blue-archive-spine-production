@@ -16,24 +16,35 @@ jobs:
         with:
           ref: 'global' # Get the right branch
           fetch-depth: '0' # Get all branch first
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
       - name: Installing requirements
         run: |
-          pip install -r requirements.txt 
+          pip install requests==2.32.0 UnityPy==1.9.24 xxhash pycryptodome flatbuffers
+
       - name: Retrieving models
         run: |
           python ./py/getModelsGlobal.py
+
       - name: Generating models.json
         run: |
           python ./py/generateModelsJson.py
+
       - name: Generating audio.json
         run: |
           python ./py/generateAudioJsonGlobal.py
+
       - name: Commit files
         run: |
           git add .
           git config --global user.email "bot@github.com"
           git config --global user.name "Github Bot"
           git commit -m "[Update] $(cat ./data/version.txt)"
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
