@@ -18,7 +18,7 @@ jobs:
           fetch-depth: '0' # Get all branch first
       - name: Installing requirements
         run: |
-          pip install -r requirements.txt 
+          pip install requests==2.32.0 UnityPy>=1.9.28 xxhash pycryptodome flatbuffers
       - name: Retrieving models
         run: |
           python ./py/getModelsGlobal.py
