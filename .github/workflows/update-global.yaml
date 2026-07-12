@@ -24,7 +24,7 @@ jobs:
 
       - name: Installing requirements
         run: |
-          pip install requests==2.32.0 UnityPy==1.9.24 xxhash pycryptodome flatbuffers
+          pip install requests==2.32.0 UnityPy==1.9.28 xxhash pycryptodome flatbuffers
 
       - name: Retrieving models
         run: |
