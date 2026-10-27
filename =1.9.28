@@ -4,23 +4,23 @@ Collecting requests==2.32.0
 Collecting UnityPy
   Downloading unitypy-1.25.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (21 kB)
 Collecting xxhash
-  Downloading xxhash-4.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (17 kB)
+  Downloading xxhash-4.0.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (17 kB)
 Collecting pycryptodome
-  Downloading pycryptodome-4.0.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.8 kB)
+  Downloading pycryptodome-4.2.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
 Collecting flatbuffers
   Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
 Collecting charset-normalizer<4,>=2 (from requests==2.32.0)
   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 6.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 5.1 MB/s eta 0:00:00
 Requirement already satisfied: idna<4,>=2.5 in /usr/lib/python3/dist-packages (from requests==2.32.0) (3.6)
 Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/lib/python3/dist-packages (from requests==2.32.0) (2.0.7)
 Requirement already satisfied: certifi>=2017.4.17 in /usr/lib/python3/dist-packages (from requests==2.32.0) (2023.11.17)
 Collecting lz4 (from UnityPy)
   Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
 Collecting brotli (from UnityPy)
-  Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+  Downloading brotli-1.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
 Collecting Pillow (from UnityPy)
-  Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+  Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
 Collecting texture2ddecoder>=1.0.5 (from UnityPy)
   Downloading texture2ddecoder-1.0.6-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
 Collecting etcpak (from UnityPy)
@@ -45,41 +45,41 @@ Collecting archspec>=0.2 (from astc-encoder-py>=0.1.12->UnityPy)
 Collecting pyfmodex>=0.7.2 (from fmod_toolkit->UnityPy)
   Downloading pyfmodex-0.7.2-py3-none-any.whl.metadata (2.6 kB)
 Downloading requests-2.32.0-py3-none-any.whl (63 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.7/63.7 kB 16.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.7/63.7 kB 8.8 MB/s eta 0:00:00
 Downloading unitypy-1.25.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 24.0 MB/s eta 0:00:00
-Downloading xxhash-4.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (261 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261.8/261.8 kB 89.5 MB/s eta 0:00:00
-Downloading pycryptodome-4.0.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 99.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 18.3 MB/s eta 0:00:00
+Downloading xxhash-4.0.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (261 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261.8/261.8 kB 93.5 MB/s eta 0:00:00
+Downloading pycryptodome-4.2.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 66.8 MB/s eta 0:00:00
 Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
 Downloading astc_encoder_py-0.1.12-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 106.5 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 99.1 MB/s eta 0:00:00
 Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 257.6/257.6 kB 27.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 257.6/257.6 kB 127.6 MB/s eta 0:00:00
 Downloading texture2ddecoder-1.0.6-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (399 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 399.6/399.6 kB 112.0 MB/s eta 0:00:00
-Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 209.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 399.6/399.6 kB 173.7 MB/s eta 0:00:00
+Downloading brotli-1.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 277.9 MB/s eta 0:00:00
 Downloading etcpak-0.9.15-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 157.1 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 125.1 MB/s eta 0:00:00
 Downloading fmod_toolkit-0.1.3-cp38-abi3.abi3t-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (700 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 700.4/700.4 kB 156.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 700.4/700.4 kB 189.8 MB/s eta 0:00:00
 Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 77.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 120.1 MB/s eta 0:00:00
 Downloading lz4-4.4.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 205.3 MB/s eta 0:00:00
-Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 150.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 257.8 MB/s eta 0:00:00
+Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 96.2 MB/s eta 0:00:00
 Downloading archspec-0.2.6-py3-none-any.whl (81 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 81.8/81.8 kB 31.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 81.8/81.8 kB 47.7 MB/s eta 0:00:00
 Downloading pyfmodex-0.7.2-py3-none-any.whl (126 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.7/126.7 kB 49.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.7/126.7 kB 71.2 MB/s eta 0:00:00
 Building wheels for collected packages: tpk_ar
   Building wheel for tpk_ar (pyproject.toml): started
   Building wheel for tpk_ar (pyproject.toml): finished with status 'done'
-  Created wheel for tpk_ar: filename=tpk_ar-0.2.4-py3-none-any.whl size=11072 sha256=b6884831632d6bc1c8ae208a920525e31b3975172fd8597d4db32b2fa8d64208
+  Created wheel for tpk_ar: filename=tpk_ar-0.2.4-py3-none-any.whl size=11072 sha256=f91b0b053f40d11a83d8085ebd282443d7f76385561430d5ccfeb13d66998b6f
   Stored in directory: /home/runner/.cache/pip/wheels/5c/89/fa/539a2149fe79064aacd8ed6c559cfcc174588d95f088ccde0e
 Successfully built tpk_ar
 Installing collected packages: flatbuffers, brotli, xxhash, tpk_ar, texture2ddecoder, pyfmodex, pycryptodome, Pillow, lz4, fsspec, charset-normalizer, archspec, requests, fmod_toolkit, etcpak, astc-encoder-py, UnityPy
-Successfully installed Pillow-12.3.0 UnityPy-1.25.4 archspec-0.2.6 astc-encoder-py-0.1.12 brotli-1.2.0 charset-normalizer-3.5.2 etcpak-0.9.15 flatbuffers-25.12.19 fmod_toolkit-0.1.3 fsspec-2026.9.0 lz4-4.4.5 pycryptodome-4.0.0 pyfmodex-0.7.2 requests-2.32.0 texture2ddecoder-1.0.6 tpk_ar-0.2.4 xxhash-4.0.1
+Successfully installed Pillow-13.0.0 UnityPy-1.25.4 archspec-0.2.6 astc-encoder-py-0.1.12 brotli-1.2.1 charset-normalizer-3.5.2 etcpak-0.9.15 flatbuffers-25.12.19 fmod_toolkit-0.1.3 fsspec-2026.9.0 lz4-4.4.5 pycryptodome-4.2.0 pyfmodex-0.7.2 requests-2.32.0 texture2ddecoder-1.0.6 tpk_ar-0.2.4 xxhash-4.0.2
